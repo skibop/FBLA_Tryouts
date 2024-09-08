@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliophile Haven Summer Reading Program</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Bibliophile Haven</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#registration">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home" class="hero">
+            <h1>Summer Reading Adventure</h1>
+            <p>Embark on a journey through books this summer!</p>
+            <div id="countdown">
+                <div class="countdown-item">
+                    <span id="days"></span>
+                    <p>Days</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours"></span>
+                    <p>Hours</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes"></span>
+                    <p>Minutes</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds"></span>
+                    <p>Seconds</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Our Summer Reading Program</h2>
+            <div class="about-content">
+                <p>Join us for an exciting summer of reading, learning, and fun! Our program is designed to encourage a love of books and foster lifelong reading habits. Explore new worlds, meet fascinating characters, and expand your horizons through the power of literature.</p>
+            </div>
+            <div class="book-carousel">
+                <img src="/pictures/book1.jpg" alt="Book 1 Cover">
+                <img src="/pictures/book2.jpg" alt="Book 2 Cover">
+                <img src="/pictures/book3.jpg" alt="Book 3 Cover">
+                <img src="/pictures/book4.jpg" alt="Book 4 Cover">
+                <img src="/pictures/book5.jpg" alt="Book 5 Cover">
+                <img src="/pictures/book6.jpg" alt="Book 6 Cover">
+                <img src="/pictures/book7.jpg" alt="Book 7 Cover">
+                <img src="/pictures/book8.jpg" alt="Book 8 Cover">
+                <img src="/pictures/book9.jpg" alt="Book 9 Cover">
+            </div>            
+        </section>
+
+        <section id="registration" class="registration">
+            <h2>Register Now!</h2>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2024 Bibliophile Haven. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
